@@ -1,0 +1,155 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* --------------------------> css reset------------------------------< */
+
+*{
+    margin:  0;
+}
+
+.img{
+    background-image: url("https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F28%2F2021%2F08%2F11%2Fnorse-airway-airplane-NORSESUM0821.jpg");
+    position: fixed;
+    width: 100%;
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 100%; /* You must set a specified height */
+    background-position:center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-repeat: no-repeat, repeat;
+}
+header{
+    width: 100%;
+    height: 115px;
+    padding: 10px;
+    opacity: 0.9;
+    background-color: #65AEBB;
+    display: flex;
+    justify-content: center;
+   
+}
+.container1{
+    width: 90%;
+    height: 60px;
+    
+    
+    
+}
+.container1 .flex{
+    display: flex;
+    width: 90%;
+    height: 100%;
+    justify-content: space-between;
+    position: relative;
+}
+.container2{
+    width: 100%;
+    height: 50px;
+    position:relative;
+    font-size: 3rem;
+    color: white;   
+    font-style: italic;
+    
+}
+.container1 ul{
+    display: flex;
+}
+
+h1{
+    padding: 10px;
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+    font-family: 'Lucida sans';
+}
+ul{
+    font-size: 2rem;
+    color: white;
+}
+li{
+    padding: 25px;
+}
+.body-container{
+    
+    width: 100%;
+    height: 100%;
+    top: 165px;
+    
+    justify-content: center;
+    display: flex;
+    position:absolute;
+    z-index:1 ;
+    
+}
+.container{
+    width: 75%;
+    height: 100px;
+}
+.left1{
+    background-color: #9c8cf3;
+    border-right: white solid 1px;
+    border-left: white solid 1px;
+    padding: 10px 10px;
+    border-radius: 0px 40px 0px 0px;
+    font-size: 2rem;
+}
+.right1{
+    background-color: #9c8cf3;
+    border-right: white solid 1px;
+    border-left: white solid 1px;
+    outline: 10px;
+    padding: 10px 10px;
+    border-radius: 40px 0px 0px 0px;
+    font-size: 2rem;
+}
+.flight {
+    width: 100%;
+    font-size: 3rem;
+    color:black;
+    
+    justify-content: space-between;
+    display: flex;
+    
+
+}

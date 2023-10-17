@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+  <div class="img"></div>
+    <header>
+        <div class="container1">
+            <div class="flex">
+                <div>
+                    <h1>Flight Tablo</h1>
+                </div>
+            
+                <div class="right">
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="container2">
+                You can see daily flights in this page
+            </div>
+        </div>  
+    </header>
+    
+    <div class="body-container">
+      <div class="container">
+      <div class="flight">
+          <a [ngStyle]="{'background-color':departureStyle?'#65AEBB':'white'}" class="left1" routerLink="departure" (click)="Departure()" >Departure</a> 
+          <a [ngStyle]="{'background-color':arrivalStyle?'#65AEBB':'white'}" class="right1" routerLink="arrival" (click)="Arrival()">Arrival</a>   
+      
+         
+          
+      
+      </div> 
+      <router-outlet></router-outlet>
+    </div>
+    </div>
+</body>
+</html>

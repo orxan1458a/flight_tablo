@@ -1,0 +1,25 @@
+
+<table id="customers">
+  <tr>
+    <th>Schedule</th>
+    <th>Flight</th>
+    <th>Airline</th>
+    <th>Airport</th>
+    <th>Terminal</th>
+    <th>Status</th>
+  </tr>
+
+  
+  <tr *ngFor="let item of DataList" class="opacity">
+    <td>{{item.departure.scheduled}}</td>
+    <td>{{item.flight.number}}</td>
+    <td>{{item.airline.name}}</td>
+    <td>{{item.departure.airport}}</td>
+    <td>{{item.departure.terminal}}</td>
+    <td>Scheduled</td>
+
+
+
+  </tr>
+  
+</table>
